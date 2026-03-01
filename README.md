@@ -111,11 +111,11 @@ multiagent/
 ├── credentials.py          # API keys and Redis connection details
 ├── requirements.txt        # Python dependencies
 ├── ml-latest-small/        # MovieLens dataset
-│   ├── movies.csv
-│   ├── ratings.csv
-│   ├── tags.csv
-│   └── links.csv
-└── ml-latest-small.zip.*   # Split zip archive
+   ├── movies.csv
+   ├── ratings.csv
+   ├── tags.csv
+   └── links.csv
+
 ```
 
 ---
@@ -125,7 +125,7 @@ multiagent/
 - **Python 3.10+**
 - A free [Groq API key](https://console.groq.com/)
 - A free [HuggingFace account & token](https://huggingface.co/settings/tokens)
-- A **Redis** instance — [Redis Cloud free tier](https://redis.com/try-free/) works well
+- A **Redis** instance — [Redis Cloud](https://redis.com/try-free/)
 
 ---
 
@@ -160,8 +160,6 @@ REDIS_PORT     = 12345              # your Redis port (integer)
 REDIS_PASSWORD = "your-password"    # Redis password
 REDIS_URL      = f"redis://default:{REDIS_PASSWORD}@{REDIS_HOST}:{REDIS_PORT}"
 ```
-
-> **Security note:** Add `credentials.py` to `.gitignore` to avoid committing secrets.
 
 ---
 

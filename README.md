@@ -1,6 +1,6 @@
 # 🎬 MultiAgent Recommender System
 
-A conversational movie recommendation system powered by a **three-agent AI crew** that collaborates in real-time to deliver personalised film suggestions. Built with [CrewAI](https://docs.crewai.com/), [Groq](https://groq.com/), [Redis](https://redis.io/), and [Streamlit](https://streamlit.io/).
+A conversational movie recommendation system powered by a **three-agent AI crew** that collaborates in real-time to deliver personalised film suggestions. Built with [CrewAI](https://docs.crewai.com/), [GroqCloud](https://console.groq.com/), [Redis](https://redis.io/), and [Streamlit](https://streamlit.io/).
 
 ---
 

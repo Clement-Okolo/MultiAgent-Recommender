@@ -112,9 +112,6 @@ multiagent/
 ├── requirements.txt        # Python dependencies
 ├── ml-latest-small/        # MovieLens dataset
    ├── movies.csv
-   ├── ratings.csv
-   ├── tags.csv
-   └── links.csv
 
 ```
 

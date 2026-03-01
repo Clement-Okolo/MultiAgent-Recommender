@@ -1,0 +1,12 @@
+streamlit
+crewai
+crewai-tools
+langchain
+langchain-redis>=0.2.0
+langgraph
+langchain-huggingface
+huggingface_hub
+redis
+pandas
+nest_asyncio
+litellm
